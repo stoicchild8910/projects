@@ -21,13 +21,13 @@ export default ({ navigation, route }) => {
 
     const styles = StyleSheet.create({
         titleText: {
-            fontSize: 40,
+            fontSize: 25,
             fontWeight: "bold",
             color: "black",
             textAlign:"center"
         },
         coffeeReady: {
-            fontSize: 40,
+            fontSize: 25,
             fontWeight: "bold",
             color: "blue",
             textAlign:"center"
@@ -48,6 +48,7 @@ export default ({ navigation, route }) => {
                 <Button 
                 title="Pay for Sweet Coffee"
                 onPress={()=>{navigation.navigate("End", {coffeeNum})}}
+                color="#EA5455"
                 />
                 <Button 
                 title="Back to DETAIL"

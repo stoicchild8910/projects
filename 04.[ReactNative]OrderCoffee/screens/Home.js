@@ -6,7 +6,7 @@ export default ({ navigation }) => {
     
     const styles = StyleSheet.create({
         hello: {
-            fontSize: 40,
+            fontSize: 25,
             fontWeight: "bold",
             color: "black",
             textAlign:"center"

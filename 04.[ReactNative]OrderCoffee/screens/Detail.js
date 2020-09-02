@@ -7,7 +7,7 @@ export default ({ navigation, route }) => {
 
   const styles = StyleSheet.create({
     ask: {
-        fontSize: 40,
+        fontSize: 25,
         fontWeight: "bold",
         color: "black",
         textAlign:"center"
